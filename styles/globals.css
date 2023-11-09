@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Koulen&display=swap);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.background-gradient {
+    background: radial-gradient(246.86% 198.91% at 30.18% 122.2%, #F2E8C6 1.55%, #A73121 100%);
+}
